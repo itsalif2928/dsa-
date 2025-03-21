@@ -1,0 +1,22 @@
+.container {
+	background-color: aquamarine;
+	width: 50vw;
+	height: 40vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.box{
+	height: 200px;
+	width: 200px;
+	background: #ffff24;
+
+	transition-property: width;
+	transition-duration: 5s;
+	transition-timing-function: ease;
+	transition-delay: 0s;
+}
+.box:hover {
+	width: 400px;
+}

@@ -1,0 +1,21 @@
+.container{
+	background-color: azure;
+	height: 80vh;
+	width: 30vh;
+}
+.box{
+	width: 34px;
+	height: 45px;
+	background-color: aquamarine;
+	animation-name: animation;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+@keyframes animation{
+	form{
+
+	}
+	to{
+		transform: translateX(1000px);
+	}
+}
